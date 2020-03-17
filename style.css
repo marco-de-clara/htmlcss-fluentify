@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 0;
 }
 
 body {
@@ -119,7 +118,6 @@ header {
     font-size: 44px;
     font-weight: normal;
     margin-bottom: 40px;
-    line-height: normal;
 }
 
 #info, #info2 {
@@ -141,7 +139,6 @@ header {
 #info p {
     color: #a499a4;
     font-size: 18px;
-    line-height: normal;
 }
 
 #info2 {
@@ -178,14 +175,57 @@ header {
     color: #7fb802;
     font-size: 23px;
     margin: 25px 0px 30px 0px;
-    line-height: normal;
 }
 
 #info2 p {
     color: #b499a5;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 25px;
     line-height: 25px;
+}
+
+#climb {
+    margin: 0px auto;
+}
+
+#climb::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#climb-pic, #climb-desc {
+    float: left;
+    margin: 40px 0px;
+}
+
+#climb-pic {
+    text-align: center;
+    width: 53%;
+}
+
+#climb-desc {
+    width: 23%;
+}
+
+#climb-pic img {
+    height: 354px;
+}
+
+#climb h2 {
+    color: #4a4a4a;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#climb p {
+    margin: 20px 0px;
+    font-size: 17px;
+    color: #99a5c3;
+}
+
+#climb a {
+    color: #98c8f8;
 }
 
 #btn-help {
