@@ -149,6 +149,7 @@ header {
 #info2 > * {
     vertical-align: top;
 }
+
 #left-column, #mid-column, #right-column {
     display: inline-block;
     margin: 20px 0px 40px 0px;
@@ -249,7 +250,6 @@ header {
 }
 
 #plan-select {
-    text-align: center;
     width: 35%;
 }
 
@@ -266,6 +266,53 @@ header {
 
 #plan select {
     margin-right: 20px;
+}
+
+#lesson {
+    background-color: #0d325a;
+    position: relative;
+}
+
+#lesson-pic, #lesson-desc {
+    display: inline-block;
+}
+
+#lesson-desc {
+    width: 21%;
+    text-align: left;
+    line-height: 26px;
+    position: absolute;
+    top: 136px;
+    left: 16%;
+}
+
+#lesson h3 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#keyword {
+    color: #f8b71c;
+}
+
+#lesson p {
+    font-size: 18px;
+    color: #ffffff;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+#lesson a{
+    color: #96c8f1;
+}
+
+#lesson-pic {
+    position: inherit;
+    left: 45%;
+}
+
+#lesson img {
+    height: 490px;
 }
 
 #btn-help {
