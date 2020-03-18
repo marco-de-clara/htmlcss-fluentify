@@ -127,7 +127,6 @@ header {
 #info {
     background-color: #f9f9f9;
     padding: 40px 0px;
-    height: 150px;
 }
 
 #info h4 {
@@ -137,7 +136,7 @@ header {
 }
 
 #info p {
-    color: #a499a4;
+    color: rgba(0, 0, 0, 0.3);
     font-size: 18px;
 }
 
@@ -179,7 +178,7 @@ header {
 }
 
 #info2 p {
-    color: #b499a5;
+    color: rgba(0, 0, 0, 0.3);
     font-size: 14px;
     margin-top: 25px;
     line-height: 25px;
@@ -222,15 +221,14 @@ header {
 #climb p {
     margin: 20px 0px;
     font-size: 17px;
-    color: #99a5c3;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 #climb a {
-    color: #98c8f8;
+    color: rgba(0, 126, 255, 0.4);
 }
 
 #plan {
-    height: 130px;
     background-color: #f9f9f9;
 }
 
@@ -260,7 +258,7 @@ header {
 
 #plan label {
     font-size: 30px;
-    color: #b2b2b2;
+    color: rgba(0, 0, 0, 0.3);
     margin-right: 45px;
 }
 
@@ -297,13 +295,13 @@ header {
 
 #lesson p {
     font-size: 18px;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.4);
     opacity: 0.5;
     margin-top: 20px;
 }
 
 #lesson a{
-    color: #96c8f1;
+    color: rgba(0, 200, 255, 0.4);
 }
 
 #lesson-pic {
