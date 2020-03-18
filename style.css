@@ -145,14 +145,11 @@ header {
     border-bottom: 1px solid #e5e5e5;
 }
 
-#info2 > * {
-    vertical-align: top;
-}
-
 #left-column, #mid-column, #right-column {
+    vertical-align: top;
     display: inline-block;
-    margin: 20px 0px 40px 0px;
-    width: 25.5%;
+    width: 33%;
+    margin: 25px 0px;
 }
 
 #info2 img {
@@ -168,7 +165,7 @@ header {
 
 #info2 .textbox {
     display: inline-block;
-    width: 70%;
+    width: 79%;
 }
 
 #info2 h6 {
@@ -200,12 +197,11 @@ header {
 }
 
 #climb-pic {
-    text-align: center;
-    width: 53%;
+    width: 50%;
 }
 
 #climb-desc {
-    width: 23%;
+    width: 34%;
 }
 
 #climb-pic img {
@@ -244,11 +240,11 @@ header {
 }
 
 #plan-text {
-    width: 44.5%;
+    width: 50%;
 }
 
 #plan-select {
-    width: 35%;
+    width: 45%;
 }
 
 #plan h3 {
@@ -273,15 +269,13 @@ header {
 
 #lesson-pic, #lesson-desc {
     display: inline-block;
+    vertical-align: middle;
+    width: 33%;
 }
 
 #lesson-desc {
-    width: 21%;
     text-align: left;
     line-height: 26px;
-    position: absolute;
-    top: 136px;
-    left: 16%;
 }
 
 #lesson h3 {
@@ -302,11 +296,6 @@ header {
 
 #lesson a{
     color: rgba(0, 200, 255, 0.4);
-}
-
-#lesson-pic {
-    position: inherit;
-    left: 45%;
 }
 
 #lesson img {
